@@ -163,11 +163,12 @@ class Face_Recognition_System:
     def open_img(self):
         os.startfile("data")    
 
-    def open_html(self):
+   def open_html(self):
         # Path to the HTML file you want to open
-        html_file_path = os.path.abspath(r'C:\Users\ganes\OneDrive\Desktop\Face recognition System\HTML  project.html')
+        url = 'https://ganesh-portfolio-site.vercel.app/'
         # Open the file in the default web browser
-        webbrowser.open('file://' + html_file_path)
+        webbrowser.open(url)
+       
     def open_html2(self):
         # Path to the HTML file you want to open
         url='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMvXqtzvsnCXTxMHDxxzgtXBtvBPDstbXwcLrnrkwrjkvvNSJxGVVmfTjtnVVlXNwgScJJ'
